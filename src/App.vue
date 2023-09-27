@@ -33,7 +33,7 @@ import PocketBase from "pocketbase";
 <script>
 var pocketbase_ip = "";
 if (import.meta.env.MODE === "production")
-  pocketbase_ip = "http://http://193.168.146.13/";
+  pocketbase_ip = "http://193.168.146.13:80";
 else pocketbase_ip = "http://127.0.0.1:8090";
 const pb = new PocketBase(pocketbase_ip);
 
